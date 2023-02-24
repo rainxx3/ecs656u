@@ -145,10 +145,10 @@ public class GrpcClient {
           .setB11(D3M2.getC11())
           .build());
 	System.out.println("Final A");
-	System.out.println(A3M1.getC00()+" "+A3M1.getC01()+" "+B3M1.getC00()+" "+B3M1.getC01());
-	System.out.println(A3M2.getC10()+" "+A3M2.getC11()+" "+B3M2.getC10()+" "+B3M2.getC11());
-	System.out.println(C3M1.getC00()+" "+C3M1.getC01()+" "+D3M1.getC00()+" "+D3M1.getC01());
-	System.out.println(C3M2.getC10()+" "+C3M2.getC11()+" "+D3M2.getC10()+" "+D3M2.getC11());
+	System.out.println(A3.getC00()+" "+A3.getC01()+" "+B3.getC00()+" "+B3.getC01());
+	System.out.println(A3.getC10()+" "+A3.getC11()+" "+B3.getC10()+" "+B3.getC11());
+	System.out.println(C3.getC00()+" "+C3.getC01()+" "+D3.getC00()+" "+D3.getC01());
+	System.out.println(C3.getC10()+" "+C3.getC11()+" "+D3.getC10()+" "+D3.getC11());
         channel.shutdown();
 	System.out.println(C3.getC01());
     }
