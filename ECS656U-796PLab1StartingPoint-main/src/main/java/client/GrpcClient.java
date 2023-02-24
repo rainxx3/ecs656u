@@ -150,5 +150,6 @@ public class GrpcClient {
 	System.out.println(C3M1.getC00()+" "+C3M1.getC01()+" "+D3M1.getC00()+" "+D3M1.getC01());
 	System.out.println(C3M2.getC10()+" "+C3M2.getC11()+" "+D3M2.getC10()+" "+D3M2.getC11());
         channel.shutdown();
+	System.out.println(C3.getC01());
     }
 }
