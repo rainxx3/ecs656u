@@ -144,7 +144,7 @@ public class GrpcClient {
           .setB10(D3M2.getC10())
           .setB11(D3M2.getC11())
           .build());
-	System.out.println("Final Answer");
+	System.out.println("Final Ans");
 	System.out.println(A3M1.getC00()+" "+A3M1.getC01()+" "+B3M1.getC00()+" "+B3M1.getC01());
 	System.out.println(A3M2.getC10()+" "+A3M2.getC11()+" "+B3M2.getC10()+" "+B3M2.getC11());
 	System.out.println(C3M1.getC00()+" "+C3M1.getC01()+" "+D3M1.getC00()+" "+D3M1.getC01());
